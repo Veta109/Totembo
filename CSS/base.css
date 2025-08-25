@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--MR);
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    min-width: 320px;
+}
+
+:root {
+    --MR: "MR", sans-serif;
+    --MB: "MB", sans-serif;
+    --dark: #323232; 
+    --light: #E1E1E1;
+    --white: #fff;
+    --black: #000;
+}
+
+.container {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
